@@ -1,0 +1,5 @@
+The following line of code can be copied and pasted into your terminal on a Cent OS 8 or later machine. Please be sure to enter into SU prior to running the code.
+Updated: 11/15/19
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg && yum update && yum install yum-utils && sudo yum-config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo && yum update && yum install sublime-text
